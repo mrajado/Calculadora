@@ -1,3 +1,22 @@
+/**
+ * Esta clase, tomara lo introducido de las otras clases y servira de calculadora.
+ * Da cuatro opciones a elegir; Sumar, restar, multiplicar, y dividir 
+ * Dependiendo de la opcion, preguntara por dos varibles para llevar acabo la ecuacion matematica. El esultado sera la respuesta.
+ * @author irakaslea
+ * M_Rajado
+ * 
+ * @param operacion Guardara el metodo menuOpciones
+ * @param operandos Guardara los numeros pedidos. Tanto operacion como operandos sacaran lo escrito dentro
+ *
+ * @param menu Se utiliza para guardar los metodos. Tambian par elegir si se termina la calculadora o no.
+ * 
+ * @param operaciones Se utiliza para usar los metodos
+ * @param resultado tomara la respuesta que haya en operaciones y a mostrara por pantalla
+ * 
+ * @throws Un bucle que hasta que se eliga la opcion de salir, usa el metodo repetir
+ * @throws La eleccion del tipo de ecuacion
+ */
+
 package principal;
 import menu.Menu;
 import operaciones.Operaciones;
