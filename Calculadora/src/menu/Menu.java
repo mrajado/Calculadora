@@ -42,7 +42,7 @@ public class Menu {
      * @param respuesta Un String vacio que tomara las letras 's' o 'n'
      * @param ret Un boolean determinara junto al do while. Si la respuesta el correcta, cambiara para salir.
      * @throws Un do While que metera en bucle la eleccion, salvo que se escoja una de las que piden.
-     * @return devuelte la ecuacion elegidos
+     * @return devuelte la ecuacion elegidos.
      */
     public boolean repetir(){
         boolean ret = false;
