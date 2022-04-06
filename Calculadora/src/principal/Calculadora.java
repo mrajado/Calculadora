@@ -90,7 +90,7 @@ public class Calculadora{
 
 
 	        try {
-	            fileHandler  = new FileHandler("./logs/LOGoperaciones.html");//con true le añade contenido
+	            fileHandler  = new FileHandler("./logs/resultadosNulos.html");//con true le añade contenido
 	            consoleHandler = new ConsoleHandler();
 
 	        } catch(IOException exception){
@@ -106,7 +106,7 @@ public class Calculadora{
 	        consoleHandler.setLevel(Level.WARNING);
 	        fileHandler.setLevel(Level.FINE);
 	        
-	        fileHandler.setFilter(new FiltroLogMultiplicar());
+	        //fileHandler.setFilter(new FiltroLogMultiplicar());
 	        
 	        LOGGER.setLevel(Level.FINE);//O ALL
 	 }

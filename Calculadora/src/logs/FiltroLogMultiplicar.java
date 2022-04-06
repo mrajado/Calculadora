@@ -12,7 +12,7 @@ public class FiltroLogMultiplicar implements Filter{
 			guardarLog = true;
 		}
 		return guardarLog;
-		
+		//agua de coco
 	}
 
 }
